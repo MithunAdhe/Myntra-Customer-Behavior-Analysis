@@ -3,6 +3,9 @@
 This project analyzes customer behavior for **Myntra Fashion** products using data visualization and exploratory analysis techniques. The goal is to provide actionable insights into pricing strategies, customer preferences, and brand performance.
 
 ---
+# Dateset
+https://www.kaggle.com/datasets/manishmathias/myntra-fashion-dataset/data
+---
 
 ## 📊 Project Goals
 1. **Brand Performance Analysis**: Identifying top-performing brands and their contributions to revenue.
