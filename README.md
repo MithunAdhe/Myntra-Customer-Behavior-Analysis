@@ -67,4 +67,5 @@ This project analyzes customer behavior for **Myntra Fashion** products using da
 - **Leverage Customer Engagement**: Enhance marketing campaigns for popular categories with high review counts to increase sales.
 
 ---
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
