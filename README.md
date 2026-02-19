@@ -1,74 +1,268 @@
-# Customer Behaviour Analysis for Myntra Fashion 🎯
+# 🛍️ Myntra Customer Behaviour & Sales Analytics Dashboard (Tableau)
 
-This project analyzes customer behavior for **Myntra Fashion** products using data visualization and exploratory analysis techniques. The goal is to provide actionable insights into pricing strategies, customer preferences, and brand performance.
+An interactive Tableau dashboard that analyzes **customer behavior, pricing strategy, product performance, and brand insights** using Myntra fashion dataset.
 
----
-# Dateset
-https://www.kaggle.com/datasets/manishmathias/myntra-fashion-dataset/data
----
-
-## 📊 Project Goals
-1. **Brand Performance Analysis**: Identifying top-performing brands and their contributions to revenue.
-2. **Category & Subcategory Analysis**: Exploring customer preferences across categories and subcategories.
-3. **Price Analysis**: Investigating price trends and identifying optimal price ranges.
-4. **Customer Ratings & Reviews**: Assessing customer satisfaction based on average ratings and total reviews.
-5. **Size Options Analysis**: Evaluating the distribution of size availability across categories.
+This project demonstrates **end-to-end data analytics, EDA, and dashboard storytelling** using Tableau.
 
 ---
 
-## 🖼️ Dashboards and Key Insights
+# 📌 Project Overview
 
-### 1. **Category Performance Dashboard**
-- **Categories Based on Average Ratings**:
-  - Categories with the highest average ratings include **X**, **Y**, and **Z**, indicating strong customer satisfaction in these areas.
-  - Categories with lower ratings (**A**, **B**) highlight opportunities for improvement in product quality or customer service.
-- **Distribution of Categories**:
-  - The top-selling categories are **Footwear**, **Clothing**, and **Accessories**, contributing the most to revenue.
-  - Underperforming categories show a smaller market share and may need enhanced marketing strategies.
-- **Popular Categories Based on Total Reviews**:
-  - Categories with the highest engagement include **Clothing** and **Footwear**, with thousands of reviews indicating strong customer interest.
+E-commerce companies rely heavily on customer data to understand:
 
----
+- Buying behavior
+- Pricing sensitivity
+- Customer engagement
+- Brand performance
 
-### 2. **Subcategory Performance Dashboard**
-- **Distribution of Subcategories**:
-  - Subcategories such as **T-Shirts**, **Jeans**, and **Sneakers** dominate in terms of popularity and sales volume.
-  - Niche subcategories like **Caps** and **Scarves** may require targeted marketing to improve visibility.
+This project transforms raw Myntra product data into **interactive Tableau dashboards** that help uncover patterns in:
+
+- Customer reviews ⭐
+- Pricing & discounts 💰
+- Product popularity 👕
+- Brand performance 📈
+- Customer demographics 👥
 
 ---
 
-### 3. **Pricing & Review Dashboard**
-- **Price Analysis**:
-  - Most products fall in the **₹500 - ₹2000** price range, aligning with customer affordability preferences.
-  - Premium categories priced above **₹5000** show moderate demand, appealing to niche audiences.
-- **Customer Ratings Analysis**:
-  - A majority of products have ratings between **4.0 and 4.5**, reflecting positive customer feedback.
-  - Products rated below **3.5** may need a review of quality standards.
+# ❗ Problem Statement
+
+Online fashion platforms handle thousands of products and reviews, making it difficult to:
+
+- Identify top-performing brands
+- Understand customer preferences
+- Optimize pricing strategies
+- Analyze product engagement
+- Improve low-performing categories
+
+This project solves the problem by building **multi-dashboard analytics in Tableau**.
 
 ---
 
-### 4. **Popular Products Analysis**
-- **Trending Categories Based on Reviews**:
-  - **T-Shirts**, **Dresses**, and **Sneakers** show the highest engagement and sales, highlighting customer preferences for casual and trendy wear.
-- **Actionable Insight**:
-  - Expanding product offerings in these categories and maintaining stock availability can capitalize on their popularity.
+# 🎯 Project Objectives
+
+- Analyze brand performance using reviews, ratings, and sales
+- Understand category & subcategory popularity
+- Evaluate pricing and discount strategies
+- Study customer engagement patterns
+- Identify opportunities for business growth
 
 ---
 
-## 🔍 Methodology
-1. **Data Cleaning**: Missing values were addressed, and data formats standardized.
-2. **Descriptive Statistics**: Analyzed product counts, average ratings, and price distributions.
-3. **Exploratory Data Analysis (EDA)**: Created visualizations to uncover trends and patterns.
-4. **Dashboard Creation**: Designed interactive dashboards in Tableau to present insights clearly.
+# 📊 Dataset Information
+
+📂 Dataset Source:  
+Kaggle – Myntra Fashion Dataset  
+https://www.kaggle.com/datasets/manishmathias/myntra-fashion-dataset
+
+Dataset includes:
+
+- Product categories & subcategories
+- Brand names
+- Prices & discount percentages
+- Customer ratings & reviews
+- Gender & product distribution
 
 ---
 
-## 💡 Recommendations
-- **Focus on Top Categories**: Invest in expanding high-performing categories such as **Clothing** and **Footwear**.
-- **Improve Low-Rated Categories**: Identify and address issues in categories with low ratings to enhance customer satisfaction.
-- **Optimize Pricing**: Maintain competitive pricing in the **₹500 - ₹2000** range, while exploring promotions for higher-priced products.
-- **Leverage Customer Engagement**: Enhance marketing campaigns for popular categories with high review counts to increase sales.
+# 🛠️ Tools & Technologies Used
+
+| Tool | Purpose |
+|------|--------|
+| Tableau | Dashboard Development |
+| Excel / CSV | Data Cleaning |
+| Exploratory Data Analysis | Insights Generation |
 
 ---
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# 🔄 Project Workflow
+
+1️⃣ Data Cleaning & Preparation  
+2️⃣ Exploratory Data Analysis (EDA)  
+3️⃣ Feature Understanding & Aggregation  
+4️⃣ Dashboard Design in Tableau  
+5️⃣ Insights & Recommendations  
+
+---
+
+# 🧹 Data Cleaning & Preparation
+
+Key steps:
+
+- Removed missing and duplicate records
+- Standardized category names
+- Created calculated fields:
+  - Price Range Buckets
+  - Discount Categories
+  - Customer Engagement Metrics
+- Aggregated reviews and ratings by brand & category
+
+---
+
+# 🔍 Exploratory Data Analysis (EDA)
+
+Main analysis areas:
+
+- Brand performance & reviews
+- Category popularity
+- Pricing vs ratings relationship
+- Discount effectiveness
+- Customer engagement by gender
+
+---
+
+# 📈 Key Insights & Findings
+
+## 🏷️ Brand Performance Insights
+
+Top brands based on reviews:
+
+- **Roadster** → 1.42M reviews (highest engagement)
+- Mast & Harbour → 554K reviews
+- Here & Now → 543K reviews
+
+Top brands by ratings:
+
+- Highlander ⭐ 3.61
+- Dressberry ⭐ 3.60
+- Mast & Harbour ⭐ 3.47
+
+👉 High review count does not always mean highest rating.
+
+---
+
+## 👗 Category Insights
+
+Top categories by product count:
+
+- Western → 14,694 products
+- Topwear → 8,415 products
+- Bottomwear → 7,243 products
+
+Highest rated categories:
+
+- Innerwear & Sleepwear ⭐ 3.87
+- Western ⭐ 3.57
+- Lingerie & Sleepwear ⭐ 3.56
+
+Most reviewed categories:
+
+- Western → 1.63M reviews
+- Topwear → 874K reviews
+- Bottomwear → 822K reviews
+
+---
+
+## 💸 Pricing Insights
+
+Customer rating by price range:
+
+| Price Range | Avg Rating |
+|-------------|-----------|
+| Low (<₹500) | ⭐ **3.77** |
+| Medium (₹500–₹1500) | ⭐ 3.40 |
+| High (₹1500+) | ⭐ 3.09 |
+
+👉 Budget-friendly products receive **better ratings**.
+
+---
+
+## 🎯 Discount Insights
+
+Most common discount:
+
+- **60% OFF** products dominate the platform
+
+Highest review engagement:
+
+- 60% OFF → 939K reviews
+- 50% OFF → 676K reviews
+
+👉 Heavy discounts significantly increase engagement.
+
+---
+
+## 👥 Customer Engagement Insights
+
+Gender comparison:
+
+| Gender | Reviews | Avg Rating |
+|--------|--------|------------|
+| Women | 2.71M | ⭐ 3.26 |
+| Men | 1.92M | ⭐ 3.14 |
+
+👉 Women generate **higher engagement and slightly higher ratings**.
+
+---
+
+# 📊 Dashboard Pages
+
+## 1️⃣ Brand Performance Dashboard
+- Total reviews by brand
+- Discount vs ratings analysis
+- Sales vs rating comparison
+
+## 2️⃣ Category & Subcategory Dashboard
+- Category popularity
+- Subcategory distribution
+- Average ratings by category
+
+## 3️⃣ Customer Engagement Dashboard
+- Gender-based engagement
+- Price range vs engagement
+
+## 4️⃣ Price & Discount Analysis Dashboard
+- Discount effectiveness
+- Price vs rating analysis
+- Discount vs product distribution
+
+---
+
+# 💼 Business Impact / Recommendations
+
+📌 Increase inventory for high-review categories (Western, Topwear)  
+📌 Maintain strong discount strategy (50–60% range)  
+📌 Focus marketing on women shoppers (higher engagement)  
+📌 Improve quality in high-price segments (lower ratings)  
+📌 Promote top-rated brands for better conversion  
+
+---
+
+# ▶️ How to Use
+
+1. Install Tableau Desktop / Tableau Public  
+2. Open the file:
+
+Myntra customer analysis.twbx
+
+3. Explore dashboards interactively.
+
+---
+
+# 🖼️ Dashboard Screenshots
+
+### Brand Performance Overview Page
+![Brand Performance Overview](BrandPerformanceOverview.png)
+
+### Category & Subcategory Performance Page
+![Category & Subcategory Performance](Category&SubcategoryPerformance.png)
+
+### Customer Engagement & Demographics Page
+![Customer Engagement & Demographics](CustomerEngagement&Demographics.png)
+
+### Price & Discount Analysis Page
+![Price & Discount Analysis](Price&DiscountAnalysis.png)
+
+
+---
+
+# 👨‍💻 Author
+
+**Mithun Adhe**  
+Data Analyst | Tableau Developer  
+
+🔗 GitHub: https://github.com/MithunAdhe
+
+---
+
+⭐ If you like this project, consider giving it a star!
