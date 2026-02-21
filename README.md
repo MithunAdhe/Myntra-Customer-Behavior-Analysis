@@ -6,6 +6,14 @@ This project demonstrates **end-to-end data analytics, EDA, and dashboard storyt
 
 ---
 
+
+---
+
+# Live Dashboard Link
+https://public.tableau.com/views/Myntracustomeranalysis/Dashboard4?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+---
+
 # 📌 Project Overview
 
 E-commerce companies rely heavily on customer data to understand:
